@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 70%;
+    min-height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    
+}
+header{
+    margin: 20px;
+    font-size: 40px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+.container{
+    width: 100%;
+    display: inline-flex;
+}
+.con{
+    width: 350px;
+    height: 400px;
+    display: inline-flex;
+    background-image: url('Snapchat-2072359673.jpg');
+    background-size: cover;
+    margin-left: 20px;
+}
+.can{
+    width: 450px;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+    margin-left: 90px;
+}
+.can span{
+    float: left;
+    background-color: black;
+    align-self: auto;
+    color: aliceblue;
+    width: 40px;
+    height: 20px;
+}
+
+ ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+ }
+ ul li{
+     display: inline;
+     margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    color: red;
+}
+.footer{
+    text-align: center;
+}
